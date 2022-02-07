@@ -1,0 +1,30 @@
+.status__icon1{
+    color: greenyellow;
+}
+.status__icon2{
+    color: red;
+}
+.status__icon3{
+    color: gray;
+}
+.status__icon1 span{
+    color: #5b5b5b;
+}
+.status__icon2 span{
+    color: #5b5b5b;
+}
+.status__icon3 span{
+    color: #5b5b5b;
+}
+
+.zoom{
+    transform: scale(1);
+    transition: transform .4s;
+    border-radius: 10px;
+    box-shadow: 1px 10px 15px rgba(0, 0, 0, 0.50);
+}
+.zoom:hover{
+    transform: scale(1.08);
+    transition: transform .4s;
+}
+
